@@ -1,4 +1,5 @@
 /express/node_modules/
 /gulp/node_modules/
 /node_modules/
-/routing/node_modules
+/routing/node_modules/
+/proyecto/node_modules/
