@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) {
+         bar(1 + 5)
+      }
+  body
+    h1 Jade - node template engine
+    #container.col
+      if youAreUsingJade
+        p You are amazing
+      else
+        p Get on it!
+      p.
+        Aprendiendo JADE.
+    - var arreglo = [1,2,3,4,5,6,7,8,9];
+    - for (var i = arreglo.length - 1; i >= 0; i--)
+      p= arreglo[i]
+      p!= "<h1>"+arreglo[i]+"</h1>"
+      p Hola #{arreglo[i]}
+      p.
+        Oprimir #[a(href="http://www.hotmail.com" target="_blank") este link] por favor
