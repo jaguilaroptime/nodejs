@@ -11,6 +11,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.13.6",
+    "mongose": "0.0.2-security"
   }
 }
